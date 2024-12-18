@@ -44,7 +44,7 @@ def format_time(seconds):
     return f"{minutes:02d}:{seconds:02d}"
 
 def main():
-    st.title("選手スタッツ記録システム")
+    st.title("スタッツ記録")
 
     # タイマーと試合情報を左サイドバーに配置
     with st.sidebar:
